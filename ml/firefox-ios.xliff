@@ -4395,6 +4395,14 @@ Private Tab</source>
         <source>Default Search Engine</source>
         <note>Accessibility label for default search engine setting.</note>
       </trans-unit>
+      <trans-unit id="Settings.Search.Accessibility.LearnAboutSuggestions.v124" xml:space="preserve">
+        <source>Learn more about %@ Suggest</source>
+        <note>Accessibility label for Learn more about Firefox Suggest. Placeholder is for the app name - Firefox.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.DefaultSearchEngine.Footer.v122" xml:space="preserve">
+        <source>Results from searches, history, bookmarks, and more</source>
+        <note>Footer for for the `default search engine` settings section in the Search Settings page, which explains in more details what the `Show Search Suggestions` setting includes.</note>
+      </trans-unit>
       <trans-unit id="Settings.Search.DefaultSearchEngine.Title.v121" xml:space="preserve">
         <source>Default Search Engine</source>
         <note>Title for the `default search engine` settings section in the Search page in the Settings menu.</note>
@@ -4418,6 +4426,30 @@ Private Tab</source>
       <trans-unit id="Settings.Search.ShowSuggestions.v121" xml:space="preserve">
         <source>Show Search Suggestions</source>
         <note>Label for the `show search suggestions` setting, in the Search Settings page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.AddressBarSetting.Title.v124" xml:space="preserve">
+        <source>Address bar - %@ Suggest</source>
+        <note>In the Search page of the Settings menu, the title for the Firefox Suggest settings section. Placeholder is for the app name - Firefox.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.LearnAboutSuggestions.v124" xml:space="preserve">
+        <source>Learn more about %@ Suggest</source>
+        <note>In the search page of the Settings menu, the title for the link to the SUMO Page about Firefox Suggest. Placeholder is for the app name - Firefox.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124" xml:space="preserve">
+        <source>Get suggestions from the web related to your search</source>
+        <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124" xml:space="preserve">
+        <source>Suggestions from %@</source>
+        <note>In the Search page of the Settings menu, the title for setting to enable Suggestions from Firefox. Placeholder is for the app name - Firefox.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Description.v124" xml:space="preserve">
+        <source>Support %@ with occasional sponsored suggestions</source>
+        <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from sponsors. Placeholder is for the app name - Firefox.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Title.v124" xml:space="preserve">
+        <source>Suggestions from sponsors</source>
+        <note>In the Search page of the Settings menu, the title for the setting to enable Suggestions from sponsors.</note>
       </trans-unit>
     </body>
   </file>
@@ -4865,6 +4897,17 @@ Private Tab</source>
       <trans-unit id="TabsTray.SyncTabs.SyncTabsButton.Title.v119" xml:space="preserve">
         <source>Sync Tabs</source>
         <note>Button label to sync tabs in your account</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/TabToolbar.strings" datatype="plaintext" source-language="en" target-language="ml">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="TabToolbar.Accessibility.DataClearance.v122" xml:space="preserve">
+        <source>Data Clearance</source>
+        <note>Accessibility label for the tab toolbar fire button in private mode, used to provide users a way to end and delete their private session data.</note>
       </trans-unit>
     </body>
   </file>
